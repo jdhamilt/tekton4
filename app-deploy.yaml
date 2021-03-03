@@ -37,7 +37,7 @@ spec:
       path: /health/ready
       port: 9080
     initialDelaySeconds: 5
-    periodSeconds: 3
+    periodSeconds: 2
     timeoutSeconds: 1
   service:
     annotations:
